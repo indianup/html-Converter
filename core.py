@@ -2,7 +2,7 @@ import re
 import os
 from telegram import InputFile
 from utils import generate_html_file
-from logs import logger
+from logs import logger  # Correctly import the logger
 
 def extract_urls_and_names(text):
     url_pattern = re.compile(r'https?://[^\s]+')
