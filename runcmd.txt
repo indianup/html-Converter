@@ -1,0 +1,6 @@
+# To run the bot locally
+python app.py
+
+# To build and run the bot using Docker
+docker build -t telegram-bot .
+docker run -it --rm telegram-bot
